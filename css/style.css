@@ -1,0 +1,19 @@
+.home-slider {
+    z-index: 99;
+    background-image: url("../img/ogame-wallpaper.jpg");
+    height: 600px;
+    background-size: cover;
+}
+
+.bg-home-slider {
+    z-index: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 600px;
+}
+
+.text-full-center {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
