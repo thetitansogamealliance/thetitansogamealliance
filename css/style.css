@@ -2,6 +2,7 @@ body {
     background-image: url("../img/nebula_by_hubble-wallpaper-3554x1999.jpg");
     background-size: cover;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .div-slider {
@@ -41,4 +42,33 @@ body {
     background-image: url("../img/feac67b6-3e41-4b13-8365-3daa3c28e5a9.jpg");
     background-size: cover;
     margin-bottom: 300px;
+}
+
+.section-help-wrapper {
+    padding-top: 50px;
+}
+
+.section-help {
+    margin-top: 150px;
+    background-color: rgba(225,206,255,0.7);
+}
+
+.section-help-img {
+
+    min-height: 300px;
+    background-image: url("../img/science-fiction-space-army-1080P-wallpaper.jpg");
+    background-size: cover;
+}
+
+.section-help-text {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+.footer-body {
+    background-color: #212529;
 }
