@@ -4,6 +4,7 @@ async function loadSimpleInfoUserWhitDefaultAlliance(){
         $.ajax({
             url: 'https://s166-es.ogame.gameforge.com/api/players.xml',
             type: 'get',
+            crossDomain: true,
             header:{
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods":"DELETE, POST, GET, OPTIONS",
@@ -40,6 +41,7 @@ async function loadFullInfoUserWhitByUsersId(idUser){
                 "Access-Control-Allow-Methods":"DELETE, POST, GET, OPTIONS",
                 "Access-Control-Allow-Headers":"Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
             },
+            crossDomain: true,
             contentType: 'text/xml',
             success: function (data) {
                 var xml = $(data).find('playerData')[0];
