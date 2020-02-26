@@ -69,6 +69,12 @@ footer {
     margin-top: 150px;
 }
 
-.footer-body {
-    background-color: #212529;
+.footer-body, .bg-card-color {
+    background-color: #343a40;
+}
+
+.planet-info-cards {
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
 }
