@@ -4,6 +4,7 @@ async function loadSimpleInfoUserWhitDefaultAlliance(){
         $.ajax({
             url: 'https://s166-es.ogame.gameforge.com/api/players.xml',
             type: 'get',
+            crossDomain: true,
             contentType: 'text/xml',
             success: function (data) {
 
@@ -30,6 +31,7 @@ async function loadFullInfoUserWhitByUsersId(idUser){
         $.ajax({
             url: `https://s166-es.ogame.gameforge.com/api/playerData.xml?id=${idUser}`,
             type: 'get',
+            crossDomain: true,
             contentType: 'text/xml',
             success: function (data) {
                 var xml = $(data).find('playerData')[0];
