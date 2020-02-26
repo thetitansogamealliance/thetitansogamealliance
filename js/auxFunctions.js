@@ -30,7 +30,7 @@ function loadCard(infoPlayer){
                                 <img src="img/graphic.png" class="w-50"/>
                             </div>
                             <div class="col-9">
-                                <h5 class="text-white text-uppercase">PUNTOS</h5>
+                                <h5 class="text-white text-uppercase">CLASIFICACION</h5>
                             </div>
                         </div>
 
