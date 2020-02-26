@@ -39,7 +39,7 @@ async function loadFullInfoUserWhitByUsersId(idUser){
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods":"DELETE, POST, GET, OPTIONS",
                 "Access-Control-Allow-Headers":"Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
-            }
+            },
             contentType: 'text/xml',
             success: function (data) {
                 var xml = $(data).find('playerData')[0];
